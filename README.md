@@ -10,7 +10,7 @@ Contains the files calculating the total trainable parameters of some ResNet mod
 
 ## Accuracy
 
-Symbol `-` means the value is the same as the one of the previous row, so the change of the value can be obvious and clear.
+Symbol `-` means that the value is the same as the one of the previous row, so the change of the value can be obvious and clear.
 
 | Model  | Acc  |Params   |N|B           | C                 | F          | K          |P|LR   |E|
 |--------|------|---------|-|------------|-------------------|------------|------------|-|-----|---|
