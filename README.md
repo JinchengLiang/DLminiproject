@@ -23,3 +23,10 @@ Symbol `-` means that the value is the same as the value of the previous row, so
 |ResNet26-B453-C   |95.54%|3,618,890|-|[4,5,3]   |[64,128,192]     |-|-|-|-    |-|
 |ResNet30          |95.46%|4,947,530|-|[4,5,5]   |-       |-|-|-|-    |-|
 |ResNet56          |94.74%|4,818,378|2|[14,13]   |[64,128]       |-|-|-|-    |-|
+
+You can specify parameters yourself in main.py, then run with
+```
+python main.py
+```
+
+The best model is shown in best_model.ipynb
