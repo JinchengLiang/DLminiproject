@@ -6,7 +6,7 @@ p.s. Progress bar only works in terminal.
 
 ## Model
 The best model is shown in `best_model.ipynb`. 
-When we run the code in Colab, the GPU is limited before running finshed, so only half training and test outputs display in the file. 
+When we run the code in Colab, the GPU is limited before finshed, so only half training and test outputs display in the notebook. 
 Therefore, we run the code in the laptop with GPU to get the outputs including test accuracy.
 
 You can specify parameters yourself in main.py, then run with
@@ -16,7 +16,8 @@ python main.py
 
 ## Accuracy
 
-Symbol `-` means that the value is the same as the value of the previous row, so the change of the value can be obvious and clear.
+Symbol `-` means that the value is the same as the value of the previous row, so the change of the value can be obvious and clear. 
+Folder `Trainable_Parameters_Analysis` includes the number of parameters of some models.
 
 | Model            | Acc  |Params   |N|B           | C                 |$F_i$|$K_i$|P|LR   |E|
 |----------------- |------|---------|-|------------|-------------------|-|-|-|-----|---|
