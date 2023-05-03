@@ -4,6 +4,16 @@ Code Reference: https://github.com/kuangliu/pytorch-cifar.git
 
 p.s. Progress bar only works in terminal.
 
+## Model
+The best model is shown in `best_model.ipynb`. 
+When we run the code in Colab, the GPU is limited before running finshed, so only half training and test outputs display in the file. 
+Therefore, we run the code in the laptop with GPU to get the outputs including test accuracy.
+
+You can specify parameters yourself in main.py, then run with
+```
+python main.py
+```
+
 ## Accuracy
 
 Symbol `-` means that the value is the same as the value of the previous row, so the change of the value can be obvious and clear.
@@ -24,11 +34,6 @@ Symbol `-` means that the value is the same as the value of the previous row, so
 |ResNet30          |95.46%|4,947,530|-|[4,5,5]   |-       |-|-|-|-    |-|
 |ResNet56          |94.74%|4,818,378|2|[14,13]   |[64,128]       |-|-|-|-    |-|
 
-The best model is shown in `best_model.ipynb`.
 
-You can specify parameters yourself in main.py, then run with
-```
-python main.py
-```
 
 
